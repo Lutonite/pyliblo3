@@ -16,6 +16,7 @@ from libc.math cimport modf
 from libc.stdint cimport int32_t, int64_t
 
 from liblo cimport *
+from ctypes import c_long as long
 
 import inspect as _inspect
 import weakref as _weakref
